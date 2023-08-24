@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215096397383",
+    "project_id": "push-notifications-test-51f99",
+    "storage_bucket": "push-notifications-test-51f99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215096397383:android:5dffe3bb33ca23af90ab62",
+        "android_client_info": {
+          "package_name": "com.utkarsh.push_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215096397383-bd16e449ffm6nv1i8n7p3qijm3i1c652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwxEhNli_0YJ_T9NzzY59HFU_I1djLl_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215096397383-bd16e449ffm6nv1i8n7p3qijm3i1c652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

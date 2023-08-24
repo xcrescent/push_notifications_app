@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/src/widgets/placeholder.dart';
+
+class NotificationBadge extends StatelessWidget {
+  final int totalNotification;
+  const NotificationBadge({super.key, required this.totalNotification});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      decoration: const BoxDecoration(
+        color: Colors.orange,
+        shape: BoxShape.circle,
+      ),
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(8),
+          child: Text(
+            "$totalNotification",
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
